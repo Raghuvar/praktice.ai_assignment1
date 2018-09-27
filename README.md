@@ -8,8 +8,7 @@ Steps in creating the Bot
 
 
 
--------------											-----------------------
-|			|											|					   |
-| chatbot   |  ---------------------------------------->| Webhook API		   | ------> Send the response to bot
-|			|    send the request to webhook end point	|	(endpoint/webhook) |           using ngrok tool and
--------------											------------------------			check the status
+
+ chatbot ---------------------------------------->   Webhook API	----------> Send the response to bot
+		 (send the request to webhook end point)	(endpoint/webhook)           using ngrok tool and
+																				   check the status
