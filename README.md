@@ -1,14 +1,6 @@
-
-Steps in creating the Bot
-===========================
-
-1. I have used **dialogflow** API to create the chatbot.
-2. I have used webhook for creating end user API to send the request and get the response. 
-3. I have used ngrok to use the created webhook API to the chatbot so that communication can be done 
-
-
-
-
- chatbot ---------------------------------------->   Webhook API	----------> Send the response to bot
-		 (send the request to webhook end point)	(endpoint/webhook)           using ngrok tool and
-																				   check the status
+Approach
+===========
+1. To run use `python index.py <name_of_ip_json_file>`
+2. Load the valid json file. While running the application.
+3. Dump the json file into a variable which is of dict type.
+4. Iterate over the <key, value> of the data and at each steps check if any conditions is there or just step over to next one.
